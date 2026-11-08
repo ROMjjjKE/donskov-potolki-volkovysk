@@ -90,6 +90,8 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;bac
 .read .num{font-family:var(--serif);font-size:30px;color:#C8DA9E;line-height:1}
 .hint{font-size:12px;color:#9AA286;line-height:1.45}
 @media(max-width:900px){.cutter{grid-template-columns:1fr}}
+.tblWrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);background:var(--card)}
+.tblWrap .tbl{border:0;min-width:660px}
 .tbl{width:100%;border-collapse:collapse;font-size:14px;background:var(--card);border:1px solid var(--line)}
 .tbl th,.tbl td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
 .tbl thead th{font-size:11.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--mut);background:#EFEEE7;font-weight:600}
@@ -188,12 +190,12 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;bac
 </div></div></section>
 <section class="sec" id="fabrics"><div class="wrap">
 <div class="shead"><div><div class="micro">Полотна</div><h2>Чем отличаются — без «все хорошие»</h2></div><p>Одна и та же комната с разным полотном выглядит по-разному. Сравните по тому, что реально влияет на жизнь: свет, швы, уход.</p></div>
-<table class="tbl"><thead><tr><th>Полотно</th><th>Как выглядит</th><th>Свет</th><th>Швы</th><th>Куда</th></tr></thead><tbody>
+<div class="tblWrap"><table class="tbl"><thead><tr><th>Полотно</th><th>Как выглядит</th><th>Свет</th><th>Швы</th><th>Куда</th></tr></thead><tbody>
 <tr><th>Матовое</th><td>Ровная поверхность, как хорошо покрашенный потолок</td><td>Мягко рассеивает, без бликов</td><td>Самые незаметные</td><td>Спальня, гостиная, детская</td></tr>
 <tr><th>Глянец</th><td>Отражает комнату, визуально поднимает высоту</td><td>Даёт блики от окон и ламп</td><td>Заметны сильнее — раскладываем от окна</td><td>Небольшие и невысокие комнаты, кухня</td></tr>
 <tr><th>Сатин</th><td>Мягкий перламутровый отблеск между матовым и глянцем</td><td>Деликатный, без резкого отражения</td><td>Почти не видны</td><td>Гостиная, прихожая, кабинет</td></tr>
 <tr><th>Световые линии</th><td>Полотно с профилем, по которому идёт ровный свет</td><td>Сам светится по линии, заливает комнату</td><td>Скрыты в линии света</td><td>Гостиная, кухня, спальня с подсветкой</td></tr>
-</tbody></table></div></section>
+</tbody></table></div></div></section>
 <section class="sec" id="dust"><div class="wrap"><div class="dust">
 <div><div class="micro">Почему это важно</div><h2>Пыль после монтажа — не мелочь</h2><p style="font-size:15px;color:var(--ink2);margin-top:12px;max-width:44ch">Самая частая жалоба на натяжные потолки — не потолок, а уборка после него. Поэтому мы работаем с пылесборником у сверла и укрываем мебель до начала работ.</p></div>
 <div class="box"><ul>
